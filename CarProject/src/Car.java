@@ -1,0 +1,33 @@
+
+/**
+ * @author kylehuynh - meruse
+ * CIS175 - Fall 2023
+ * Jan 24, 2024
+ */
+public class Car {
+    private String make;
+    private String model;
+    private int year;
+
+    public Car(String make, String model, int year) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+
+    public String getMake() {
+        return make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public String displayInfo() {
+        return year + " " + make + " " + model;
+    }
+}
